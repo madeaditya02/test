@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <button>Toggle Paragraph</button>
+    <p class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est hic itaque reprehenderit sequi officiis dolores quasi. Pariatur consectetur est id, repellat reprehenderit eaque quibusdam maxime commodi perspiciatis blanditiis, quas soluta molestiae corporis neque consequuntur quaerat asperiores magnam, harum voluptatum fugiat at deserunt. Minima impedit distinctio consequatur consequuntur, voluptate saepe possimus et in ut minus laudantium rerum, omnis ad ea exercitationem! Minima expedita error magni voluptate illum consequuntur illo, assumenda ad ducimus sint a? Dicta reiciendis labore, quaerat, delectus odit ratione ipsa quidem voluptatem repudiandae saepe vel nobis facilis, dolorem qui magnam non in! Quam, maxime porro facere dolorem quis vel?</p>
+
+    <script>
+      document.querySelector('button').addEventListener('click', event => {
+        document.querySelector('p').classList.toggle('hidden')
+      })
+    </script>
+  </body>
+</html>
